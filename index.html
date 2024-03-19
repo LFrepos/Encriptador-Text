@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./imagenes/favicon.ico">
+    <link rel="stylesheet" href="./Style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <!--encabezado-->
+    <header>
+        <a href="#" rel=""> 
+            <img src="./imagenes/logo.svg" alt="Logo alura" class="logo">
+        </a>
+    </header>
+    <!--Seccion principal de la pagina: Contiene los botone y caja de texto -->
+
+     <main>
+        <section class="Encriptador">
+             <textarea class="encriptar" placeholder="Ingrese el texto aquí"></textarea>
+             <div class="encriptador-aviso">
+                <img src="./imagenes/aviso.svg" alt="aviso: solo letras miusculas y sin acento." class="image-aviso">
+                <p class="texto-aviso"> Solo letras Minúsculas y sin acentos</p>
+            </div>
+            <!--botones-->
+            <div class="encriptador-contenedor">
+                 <button type="submit" class="btn-encriptar">Encritptar</button>
+                 <button type="submit" class="btn-desencriptar">Desencritptar</button>
+            </div>
+        </section>
+    
+        <section class="tarjeta"> 
+           <div class="tarjeta-contenedor">
+               <img src="./imagenes/muñeco.svg" alt="imagen muñeco" class="img-muñeco">
+               <p class="texto-uno">Ningún mensaje fue encontrado</p>
+               <p class="texto-dos">Ingrese el texo que quieras encriptar o desencriptar</p>
+           </div>
+           <textarea type="mensaje" class="evaluar" readonly></textarea>
+           <button type="submit" class="btn-copiar">Copiar</button>
+        </section>
+        <!--Footer/pie de pag-->
+     </main>
+    <footer> 
+        <p class="copyright">&copy; copyright 2024 -Encriptador- Developer: Luis Felipe Acevedo</p>
+        <a href="#" rel=""> 
+         <img src="./imagenes/linkedin.svg" alt="Logo linkedin" class="linkedin">
+        </a>
+        <a href="#" rel=""> 
+          <img src="./imagenes/github.svg" alt="Logo Github" class="git">
+        </a>  
+    </footer>     
+
+    <script src="./js/encrip.js"></script>
+
+</body>
+</html>
